@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folleto - Aldeas Infantiles SOS Argentina</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos personalizados para el folleto */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Un gris muy claro para el fondo general */
+        }
+        .brand-blue {
+           background-color: #00AEEF; /* Color azul vibrante del primer logo */
+        }
+        .content-area {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 { /* Nombre de la organización */
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 1.5rem;
+        }
+        h3 { /* Títulos de sección como Productos/Servicios */
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+        h4 { /* Subtítulos como Fortalecimiento Familiar */
+             font-size: 1.25rem;
+             font-weight: 600;
+             color: #374151;
+             margin-bottom: 0.5rem;
+        }
+        p, li {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <div class="flex min-h-screen">
+        <!-- Barra lateral azul decorativa con el color correcto -->
+        <div class="brand-blue w-12 md:w-20 flex-shrink-0"></div>
+
+        <!-- Contenido principal del folleto -->
+        <div class="flex-grow p-6 md:p-12 overflow-y-auto">
+            <div class="content-area">
+                
+                <!-- Logo -->
+                <header class="mb-8 text-right">
+                    <!-- CORRECCIÓN: Se usa la URL del primer logo que subiste -->
+                    <img src="https://raw.githubusercontent.com/santiagominoyetti/Logo/main/Imagen%20de%20WhatsApp%202025-07-03%20a%20las%2019.20.26_47ddb99b.jpg" alt="Logo de Aldeas Infantiles SOS Argentina" class="h-24 inline-block">
+                </header>
+
+                <main>
+                    <!-- Nombre de la Organización -->
+                    <section>
+                        <h2>Aldeas Infantiles SOS Argentina</h2>
+                    </section>
+                    
+                    <!-- Productos/Servicios -->
+                    <section>
+                        <h3>Productos/Servicios</h3>
+                        
+                        <div class="mb-6">
+                            <h4>Fortalecimiento Familiar y Desarrollo Comunitario</h4>
+                            <p>
+                                Brindan apoyo y herramientas a familias en situación de vulnerabilidad para prevenir la pérdida del cuidado familiar y asegurar un entorno protector para los niños y niñas.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4>Acogimiento Familiar</h4>
+                            <p>
+                                Ofrecen alternativas de cuidado a niños y niñas que han perdido el cuidado parental, proporcionándoles un entorno familiar estable y protector.
+                            </p>
+                            <p class="mt-2 text-sm bg-gray-100 p-3 rounded-md border-l-4 border-gray-300">
+                                En principio, pueden ser recibidos niños y niñas en edades entre los 0 y 10 años que estén en situación de vulnerabilidad social y que por diversas razones no pueden vivir junto a su familia de origen. Tratándose de un grupo de hermanos, también recibimos niños y niñas de más edad.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- Historia -->
+                    <section>
+                        <h3>Historia</h3>
+                        <p>
+                            Aldeas Infantiles SOS fue fundada en 1949 por Hermann Gmeiner en Austria, con el objetivo de brindar un hogar a niños y niñas que habían perdido a sus familias durante la Segunda Guerra Mundial. En Argentina, la organización inició sus actividades en 1979 y ha desarrollado diversos programas en localidades como Córdoba, Mar del Plata, Oberá y Luján, apoyando a miles de niños y familias.
+                        </p>
+                    </section>
+
+                    <!-- Entidad Jurídica -->
+                    <section>
+                        <h3>Entidad jurídica y razón social</h3>
+                        <p>
+                            Asociación Civil sin fines de lucro.
+                            <br>
+                            <strong>Razón social:</strong> Asociación Aldeas Infantiles SOS Argentina.
+                        </p>
+                    </section>
+                </main>
+
+                <!-- Footer -->
+                <footer class="mt-12 pt-6 border-t text-center text-gray-500 text-sm">
+                     <p>&copy; 2024 Aldeas Infantiles SOS Argentina. Contenido para folleto informativo.</p>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
